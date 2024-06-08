@@ -1,1 +1,3 @@
 # Learning R 
+
+- Assignment operator <-
