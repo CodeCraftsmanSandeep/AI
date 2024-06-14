@@ -25,8 +25,7 @@ barplot(table(df$bus_ter))
 # crime_rate has some other functional relationship with price
 
 ----------------------------------------------------------------------
-  # Outlier treatment
-  df <- read.csv("C:/Users/chsan/OneDrive/Desktop/ML/course1/data/House_price.csv")
+# Outlier treatment
 
 # capping value of top 1 percent to remove outliers
 quantile(df$n_hot_rooms, 0.99) # 99 persentile value
@@ -58,10 +57,10 @@ df$n_hos_beds[is.na(df$n_hos_beds)] <-mean(df$n_hos_beds, na.rm = TRUE)
 mean(df$n_hos_beds)
 
 ----------------------------------------------------------------------
-  # Variable transformation
+# Variable transformation
   
-  # making more linear
-pairs(~price+crime_rate, data = df)
+# making more linear
+pairs(~ price + crime_rate, data = df)
 plot(df$price, df$crime_rate)       # looks like logarithmic
 # let us take log(1+ crimerate)
 # because
@@ -79,12 +78,12 @@ df <- df[ , -7:-10] # removing columns from 7 to 10
 df <- df[ , -14]
 
 -----------------------------------------------------------------------
-# Dummy variable creation 
+  # Dummy variable creation 
   
-# dummies package is out dated!! 
-# install.packages("dummies")
+  # dummies package is out dated!! 
+  # install.packages("dummies")
   
-
+  
 install.packages("fastDummies")
 library(fastDummies)
 # below line creates dummy variables in df for categorical variables
@@ -97,8 +96,9 @@ df <- within(df, rm(waterbody))
 
 -----------------------------------------------------------------------
 # Correlation matrix 
-
+  
 cor(df)
+
 # rounding 2 decimal places
 round(cor(df), 2)
 # parks and air_quality are highly correlated
@@ -111,3 +111,12 @@ round(cor(df), 2)
 #       3) correlation(parks, price) and correlation(air_quality, price) are not much different.
 # removing air quality
 df <- within(df, rm(air_qual))
+
+
+# ----------------------------------
+# Actual code starts from here
+
+simple_linear_reg_model <- lm(price~room_num, data = df)
+summary(simple_linear_reg_model)
+plot(df$room_num, df$price)
+abline(simple_linear_reg_model) # this will draw the simple linear regression line in the plot
