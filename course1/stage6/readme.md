@@ -57,8 +57,9 @@
 
 ## KNN (K-Nearest Neighbours classifier)
 - KNN is non-parametric method.
-    - that is no function form assumed and so need to find parameters to find the assumed function
+    - that is no functional form assumed and so need to find parameters to find the assumed function
+    - As KNN is non parametric, it is difficult to get how each independent variable will impact dependent variable.
 - K is often called Hiper parameter of KNN classifier
     - Value of K decides many things!
-- It is madatory to scale data and standardize all the variables
-- 
+- It is madatory to scale data and standardize all the variables before building KNN model.
+- Whenever there is a non-linear boundary in data then KNN performs well, when there is some linear boundary pattern it is likely that LDA and logistic regression performs well.
