@@ -11,6 +11,6 @@
 | [stage7](stage7) | Descision trees |
 
 
-# Resources:
+<!-- # Resources:
 1) Link for course resources : [link](https://starttechacademy.com/z-resources-machine-learning-deep-learning-in-python-r/)
-2) 
+2)  -->
