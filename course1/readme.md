@@ -9,6 +9,8 @@
 | [stage5](stage5) | Linear regression |
 | [stage6](stage6) | Classification models (Logistic regression, Linear Discriminant Anlalysis, KNN) |
 | [stage7](stage7) | Descision trees |
+| [stage8](stage8) | SVM (Support Vector Machine) |
+
 
 
 <!-- # Resources:
