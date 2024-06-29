@@ -47,7 +47,7 @@
 - Normal decision tress has high variance
     - that means a decision tree trained on one training set is largely different compared to decision tree trained on another training set. (Assuming the training sets are not biased)
     - In the below picture we can see the decision trees are largely different which are trained on different training sets:
-        - ![alt text](image.png)
+        - ![alt text](images/mage.png)
 - We use the method of bootstrapping to generate more samples
     - We select 5 numbers randomly from {7, 9, 5, 4, 3} and create samples (as seen in below picture)
-        - ![alt text](image-1.png)
+        - ![alt text](images/image-1.png)
