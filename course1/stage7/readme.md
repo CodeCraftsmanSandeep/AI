@@ -33,3 +33,21 @@
     - [Movie_classification](data/Movie_classification.csv)
         - Start_Tech_Oscar is the dependent variable.
 
+### Ensemble methods
+- Ensemble means taking a group of things instead of individual things.
+- Three Ensemble methods:
+    1) Bagging
+        - if the decison trees created have a dominated strong decison tree, then this would highly influence the final output largely everytime.
+        - all the models created may be similar and taking mean (or) mode is not much useful. Then we go for random forests.
+    2) Random forests
+    3) Boosting
+        i) gradient boosting
+        ii) Ada boosting
+        iii) XG boost
+- Normal decision tress has high variance
+    - that means a decision tree trained on one training set is largely different compared to decision tree trained on another training set. (Assuming the training sets are not biased)
+    - In the below picture we can see the decision trees are largely different which are trained on different training sets:
+        - ![alt text](image.png)
+- We use the method of bootstrapping to generate more samples
+    - We select 5 numbers randomly from {7, 9, 5, 4, 3} and create samples (as seen in below picture)
+        - ![alt text](image-1.png)
