@@ -43,7 +43,7 @@
     3) Boosting
         i) gradient boosting
         ii) Ada boosting
-        iii) XG boost
+        iii) XG booststing
 - Normal decision tress has high variance
     - that means a decision tree trained on one training set is largely different compared to decision tree trained on another training set. (Assuming the training sets are not biased)
     - In the below picture we can see the decision trees are largely different which are trained on different training sets:
