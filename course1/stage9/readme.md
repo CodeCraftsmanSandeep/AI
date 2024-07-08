@@ -6,7 +6,7 @@
   - sigmoid neuron (or) logistic neuron
 - Keras, TensorFlow(developed by google), CUDA(processing)
 
-### soft max
+### Softmax
 Softmax is a mathematical function used in machine learning, particularly in the context of neural networks, to convert a vector of values into a probability distribution. It is often used in the final layer of a classification neural network to predict the probabilities of different classes.
 
 Here’s the softmax function defined for a vector \( z \) of \( n \) real numbers:
