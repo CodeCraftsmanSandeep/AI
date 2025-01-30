@@ -1,18 +1,25 @@
+# Machine Learning & Deep Learning in Python & R
 
-# Table of contents
-| Stages | Quick notes |
-|:-------|:------------|
-| [stage1](stage1) | Brushing up python (numpy, pandas, seaborn libraries) |
-| [stage2](stage2) | R basics |
-| [stage3](stage3) | Statistics basics and introduction to ML |
-| [stage4](stage4) | Data pre-processing |
-| [stage5](stage5) | Linear regression |
-| [stage6](stage6) | Classification models (Logistic regression, Linear Discriminant Anlalysis, KNN) |
-| [stage7](stage7) | Descision trees |
-| [stage8](stage8) | SVM (Support Vector Machine) |
+## 📌 Course Details
+- **Course:** [Machine Learning & Deep Learning in Python & R](https://www.udemy.com/course/data_science_a_to_z/?couponCode=LEARNNOWPLANS)
+- **Certificate:** [View Certificate](https://www.udemy.com/certificate/UC-1f2a2415-3e1c-440a-9298-b275a2645009/)
 
+---
 
+## 📖 Table of Contents
 
-<!-- # Resources:
-1) Link for course resources : [link](https://starttechacademy.com/z-resources-machine-learning-deep-learning-in-python-r/)
-2)  -->
+| Stages  | Topics Covered |
+|---------|---------------|
+| [Stage 1](stage1) | Python Basics (NumPy, Pandas, Seaborn) |
+| [Stage 2](stage2) | R Basics |
+| [Stage 3](stage3) | Statistics Fundamentals & Introduction to ML |
+| [Stage 4](stage4) | Data Pre-processing |
+| [Stage 5](stage5) | Linear Regression |
+| [Stage 6](stage6) | Classification Models (Logistic Regression, LDA, KNN) |
+| [Stage 7](stage7) | Decision Trees |
+| [Stage 8](stage8) | Support Vector Machines (SVM) |
+
+---
+
+## 🛠 Resources
+1) Course Resources: [Click Here](https://starttechacademy.com/z-resources-machine-learning-deep-learning-in-python-r/)
